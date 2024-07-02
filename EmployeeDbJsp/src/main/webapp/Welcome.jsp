@@ -16,6 +16,16 @@
     </form><br>
     <form action="EmplyById.jsp">
         <button type="submit">EMP BY ID</button>
+    </form><br>
+
+    <form action="FindByAge.jsp">
+        <button type="submit">EMP BY Age</button>
+    </form><br>
+    <form action="FindByAgeBw.jsp">
+        <button type="submit">EMP BY Age Between</button>
+    </form><br>
+    <form action="EmpByEmailOrEid.jsp">
+        <button type="submit">EMP BY Email Or Eid</button>
     </form>
 </body>
 </html>

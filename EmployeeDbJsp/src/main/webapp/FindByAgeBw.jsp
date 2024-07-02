@@ -7,9 +7,11 @@
 </head>
 <body>
     <h1 style="color: crimson;">Search Employee By ID....!!!!</h1>
-    <form action="EmpById">
-        <legend>Employee Id</legend>
-        <input type="text" name="eid"><br>
+    <form action="EmpByAgeBW">
+        <legend>Employee Age1</legend>
+        <input type=number name="age1"><br>
+        <legend>Employee Age2</legend>
+        <input type=number name="age2"><br>
         <button type="submit">Find</button>
     </form>
     <br><br>

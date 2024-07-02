@@ -7,50 +7,69 @@ import jakarta.persistence.Id;
 public class Employee {
 
 	@Id
-	private int eid;
+	private String eid;
 	private String ename;
 	private double sal;
 	private int age;
 	private String design;
+	private String email;
 	
 	
-	public Employee() {
-		// TODO Auto-generated constructor stub
-	}
-
-
-	public Employee(int eid, String ename, double sal, int age, String design) {
+	
+	public Employee(String eid, String ename, double sal, int age, String design, String email) {
 		super();
 		this.eid = eid;
 		this.ename = ename;
 		this.sal = sal;
 		this.age = age;
 		this.design = design;
+		this.email = email;
 	}
-   
-	
-	
+
+
 	
 
-	public int getEid() {
+	public String getEid() {
 		return eid;
 	}
 
 
-	public void setEid(int eid) {
+
+
+	public void setEid(String eid) {
 		this.eid = eid;
 	}
 
 
+
+
+	public String getEmail() {
+		return email;
+	}
+
+
+
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+
+
+
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+   
 	public String getEname() {
 		return ename;
 	}
 
-
 	public void setEname(String ename) {
 		this.ename = ename;
 	}
-
 
 	public double getSal() {
 		return sal;
@@ -82,10 +101,15 @@ public class Employee {
 	}
 
 
+
+
 	@Override
 	public String toString() {
 		return "Employee [eid=" + eid + ", ename=" + ename + ", sal=" + sal + ", age=" + age + ", design=" + design
-				+ "]";
+				+ ", email=" + email + "]";
 	}
+
+
+	
 	
 }

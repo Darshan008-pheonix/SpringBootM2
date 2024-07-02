@@ -7,9 +7,9 @@
 </head>
 <body>
     <h1 style="color: crimson;">Search Employee By ID....!!!!</h1>
-    <form action="EmpById">
-        <legend>Employee Id</legend>
-        <input type="text" name="eid"><br>
+    <form action="EmpByEmailOrEid">
+        <legend>Employee Email Or Eid</legend>
+        <input type="text" name="value"><br>
         <button type="submit">Find</button>
     </form>
     <br><br>
