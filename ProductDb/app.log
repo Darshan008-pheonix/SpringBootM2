@@ -1,0 +1,87 @@
+2024-07-13T11:33:47.251+05:30  INFO 6484 --- [ProductDb] [main] com.example.demo.ProductDbApplication    : Starting ProductDbApplication using Java 21.0.3 with PID 6484 (C:\Users\Lenovo\Desktop\SpringBoot(Proj)\ProductDb\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\SpringBoot(Proj)\ProductDb)
+2024-07-13T11:33:47.254+05:30  INFO 6484 --- [ProductDb] [main] com.example.demo.ProductDbApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-07-13T11:33:48.067+05:30  INFO 6484 --- [ProductDb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13T11:33:48.114+05:30  INFO 6484 --- [ProductDb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-07-13T11:33:48.686+05:30  INFO 6484 --- [ProductDb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-13T11:33:48.698+05:30  INFO 6484 --- [ProductDb] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-13T11:33:48.699+05:30  INFO 6484 --- [ProductDb] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13T11:33:48.753+05:30  INFO 6484 --- [ProductDb] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-13T11:33:48.754+05:30  INFO 6484 --- [ProductDb] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1445 ms
+2024-07-13T11:33:48.901+05:30  INFO 6484 --- [ProductDb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13T11:33:48.946+05:30  INFO 6484 --- [ProductDb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13T11:33:48.980+05:30  INFO 6484 --- [ProductDb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-13T11:33:49.226+05:30  INFO 6484 --- [ProductDb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13T11:33:49.252+05:30  INFO 6484 --- [ProductDb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-13T11:33:49.567+05:30  INFO 6484 --- [ProductDb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b751cb1
+2024-07-13T11:33:49.569+05:30  INFO 6484 --- [ProductDb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-13T11:33:50.362+05:30  INFO 6484 --- [ProductDb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13T11:33:50.403+05:30  INFO 6484 --- [ProductDb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13T11:33:50.583+05:30  INFO 6484 --- [ProductDb] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-13T11:33:50.642+05:30  WARN 6484 --- [ProductDb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13T11:33:50.930+05:30  INFO 6484 --- [ProductDb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-13T11:33:50.940+05:30  INFO 6484 --- [ProductDb] [main] com.example.demo.ProductDbApplication    : Started ProductDbApplication in 4.117 seconds (process running for 4.983)
+2024-07-13T11:33:54.580+05:30  INFO 6484 --- [ProductDb] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-13T11:33:54.581+05:30  INFO 6484 --- [ProductDb] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-13T11:33:54.582+05:30  INFO 6484 --- [ProductDb] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-13T11:33:54.729+05:30  INFO 6484 --- [ProductDb] [http-nio-8080-exec-2] c.e.demo.controller.ProductController    : Save Product Api had been called....!!
+2024-07-13T11:35:10.060+05:30  INFO 6484 --- [ProductDb] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-07-13T11:35:10.073+05:30  INFO 6484 --- [ProductDb] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13T11:35:10.075+05:30  INFO 6484 --- [ProductDb] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-13T11:35:10.086+05:30  INFO 6484 --- [ProductDb] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-13T11:35:15.160+05:30  INFO 25276 --- [ProductDb] [main] com.example.demo.ProductDbApplication    : Starting ProductDbApplication using Java 21.0.3 with PID 25276 (C:\Users\Lenovo\Desktop\SpringBoot(Proj)\ProductDb\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\SpringBoot(Proj)\ProductDb)
+2024-07-13T11:35:15.163+05:30  INFO 25276 --- [ProductDb] [main] com.example.demo.ProductDbApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-07-13T11:35:15.725+05:30  INFO 25276 --- [ProductDb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13T11:35:15.771+05:30  INFO 25276 --- [ProductDb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-07-13T11:35:16.204+05:30  INFO 25276 --- [ProductDb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-13T11:35:16.222+05:30  INFO 25276 --- [ProductDb] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-13T11:35:16.222+05:30  INFO 25276 --- [ProductDb] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13T11:35:16.282+05:30  INFO 25276 --- [ProductDb] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-13T11:35:16.284+05:30  INFO 25276 --- [ProductDb] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1071 ms
+2024-07-13T11:35:16.428+05:30  INFO 25276 --- [ProductDb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13T11:35:16.474+05:30  INFO 25276 --- [ProductDb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13T11:35:16.505+05:30  INFO 25276 --- [ProductDb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-13T11:35:16.767+05:30  INFO 25276 --- [ProductDb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13T11:35:16.789+05:30  INFO 25276 --- [ProductDb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-13T11:35:17.115+05:30  INFO 25276 --- [ProductDb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35b3c1f6
+2024-07-13T11:35:17.118+05:30  INFO 25276 --- [ProductDb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-13T11:35:17.952+05:30  INFO 25276 --- [ProductDb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13T11:35:18.001+05:30  INFO 25276 --- [ProductDb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13T11:35:18.201+05:30  INFO 25276 --- [ProductDb] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-13T11:35:18.249+05:30  WARN 25276 --- [ProductDb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13T11:35:18.560+05:30  INFO 25276 --- [ProductDb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-13T11:35:18.569+05:30  INFO 25276 --- [ProductDb] [main] com.example.demo.ProductDbApplication    : Started ProductDbApplication in 3.771 seconds (process running for 4.471)
+2024-07-13T11:35:22.442+05:30  INFO 25276 --- [ProductDb] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-13T11:35:22.442+05:30  INFO 25276 --- [ProductDb] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-13T11:35:22.444+05:30  INFO 25276 --- [ProductDb] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-13T11:35:22.631+05:30  INFO 25276 --- [ProductDb] [http-nio-8080-exec-1] c.e.demo.controller.ProductController    : Save Product Api had been called....!!
+2024-07-13T11:35:30.946+05:30  INFO 25276 --- [ProductDb] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-07-13T11:35:30.958+05:30  INFO 25276 --- [ProductDb] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13T11:35:30.962+05:30  INFO 25276 --- [ProductDb] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-13T11:35:30.974+05:30  INFO 25276 --- [ProductDb] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-13T11:57:50.221+05:30  INFO 25668 --- [ProductDb] [main] com.example.demo.ProductDbApplication    : Starting ProductDbApplication using Java 21.0.3 with PID 25668 (C:\Users\Lenovo\Desktop\SpringBoot(Proj)\ProductDb\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\SpringBoot(Proj)\ProductDb)
+2024-07-13T11:57:50.223+05:30  INFO 25668 --- [ProductDb] [main] com.example.demo.ProductDbApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-07-13T11:57:51.057+05:30  INFO 25668 --- [ProductDb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13T11:57:51.111+05:30  INFO 25668 --- [ProductDb] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-07-13T11:57:51.572+05:30  INFO 25668 --- [ProductDb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-13T11:57:51.582+05:30  INFO 25668 --- [ProductDb] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-13T11:57:51.582+05:30  INFO 25668 --- [ProductDb] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13T11:57:51.643+05:30  INFO 25668 --- [ProductDb] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-13T11:57:51.643+05:30  INFO 25668 --- [ProductDb] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1379 ms
+2024-07-13T11:57:51.774+05:30  INFO 25668 --- [ProductDb] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13T11:57:51.820+05:30  INFO 25668 --- [ProductDb] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13T11:57:51.847+05:30  INFO 25668 --- [ProductDb] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-13T11:57:52.106+05:30  INFO 25668 --- [ProductDb] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13T11:57:52.126+05:30  INFO 25668 --- [ProductDb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-13T11:57:52.461+05:30  INFO 25668 --- [ProductDb] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f5ae29e
+2024-07-13T11:57:52.462+05:30  INFO 25668 --- [ProductDb] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-13T11:57:53.246+05:30  INFO 25668 --- [ProductDb] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13T11:57:53.294+05:30  INFO 25668 --- [ProductDb] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13T11:57:53.521+05:30  INFO 25668 --- [ProductDb] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-13T11:57:53.702+05:30  WARN 25668 --- [ProductDb] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13T11:57:54.193+05:30  INFO 25668 --- [ProductDb] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-13T11:57:54.211+05:30  INFO 25668 --- [ProductDb] [main] com.example.demo.ProductDbApplication    : Started ProductDbApplication in 4.364 seconds (process running for 5.052)
+2024-07-13T11:57:57.261+05:30  INFO 25668 --- [ProductDb] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-13T11:57:57.261+05:30  INFO 25668 --- [ProductDb] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-13T11:57:57.263+05:30  INFO 25668 --- [ProductDb] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-13T11:58:52.041+05:30  INFO 25668 --- [ProductDb] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 356 ms
+2024-07-13T12:00:06.396+05:30  INFO 25668 --- [ProductDb] [http-nio-8080-exec-9] c.e.demo.controller.ProductController    : Save Product Api had been called....!!
