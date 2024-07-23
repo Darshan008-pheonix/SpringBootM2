@@ -5,6 +5,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.jems.entity.Admin;
@@ -18,6 +19,9 @@ import com.jems.service.AdminService;
 @Service
 public class AdminServiceimpln  implements AdminService{
 
+	
+	BCryptPasswordEncoder b1=new BCryptPasswordEncoder();
+	
 	@Autowired
 	JavaMailSender javaMailSender;
 	@Autowired
@@ -56,6 +60,19 @@ public class AdminServiceimpln  implements AdminService{
 		else {
 			throw new InvalidOtpException();
 		}
+	}
+	@Override
+	public Admin addAdmin(Admin a) {
+		a.setApswd(b1.encode(a.getApswd()));
+		return adminRepo.save(a);
+	}
+	@Override
+	public Admin addLogin(int aid, String pswd) {
+		Admin a=adminRepo.findById(aid).orElseThrow(()->new InvalidEmailException());
+		if(b1.matches(pswd,a.getApswd())) {
+			return a;
+		}
+		throw new InvalidOtpException();
 	}
 
 }
